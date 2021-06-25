@@ -66,16 +66,22 @@ text-align: initial;
 width: fit-content;
 margin: 0 auto;
 }
-a {
+.welcome-box a {
     color: #eaeaea ;
     text-decoration: none;
     background-color: transparent;
     font-size: 1.75rem;
 }
-.success {
-    color: green;
+
+a:hover{
+    color: #FFFFFF !important;
+    text-decoration: none !important;
 }
-.success::before {
+.success {
+    /* color: #FFFFFF; */
+    /* text-decoration: none; */
+}
+/* .success::before {
     content: "";
     position: absolute;
     border-color: #009933;
@@ -86,4 +92,4 @@ a {
     margin-top: 0em;
     transform: rotate(45deg);
     width: 0.5em;
-}
+} */
