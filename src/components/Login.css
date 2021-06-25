@@ -1,0 +1,89 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(140, 0, 255);
+    background: radial-gradient(circle, rgba(140, 0, 255, 1) 0%, rgba(236, 69, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box{
+    width: 90%;
+    max-width: 60rem;
+    min-height: 30rem;
+    height: auto;
+    max-height: 30rem;
+    border-radius: 10px;        
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+}
+.welcome-box{
+    width: 60%;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20.0px);
+    -webkit-backdrop-filter: blur(20.0px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.form-wrapper{
+    background-color: rgb(245, 245, 245);
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper h2 {
+    margin: 2rem;
+    letter-spacing: 4px;
+    color: #444444;
+}
+.form-wrapper .form-control{
+        border-radius: 50px;
+        background-color: #eaeaea;
+        border-color: #eaeaea;
+}
+.form-wrapper button{
+        background: rgb(140, 0, 255);
+        background: radial-gradient(circle, rgba(140, 0, 255, 1) 0%, rgba(236, 69, 255, 1) 100%);
+        border-color:none;
+        border-radius: 50px;
+        width: 7rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+}
+.welcome-box h2{
+    margin: 2rem;
+    color:azure
+}
+.password-requirements{
+display: flex;
+flex-direction: column;
+text-align: initial;
+width: fit-content;
+margin: 0 auto;
+}
+a {
+    color: #eaeaea ;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1.75rem;
+}
+.success {
+    color: green;
+}
+.success::before {
+    content: "";
+    position: absolute;
+    border-color: #009933;
+    border-style: solid;
+    border-width: 0 0.3em 0.25em 0;
+    height: 1em;
+    left: 3.3em;
+    margin-top: 0em;
+    transform: rotate(45deg);
+    width: 0.5em;
+}
