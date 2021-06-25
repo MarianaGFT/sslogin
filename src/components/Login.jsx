@@ -1,6 +1,7 @@
 import React from "react";
 import LoginCss from "./Login.css";
 import { Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -33,9 +34,11 @@ function Login() {
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
 
-              <Button variant="primary" type="submit">
-                LOGIN
-              </Button>
+              <Link to="welcome">
+                <Button variant="primary" type="submit">
+                  Sign in
+                </Button>
+              </Link>
             </Form>
           </div>
         </section>

@@ -1,0 +1,47 @@
+.welcome-container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image:linear-gradient(rgba(50, 0, 131, 0.5),
+        rgba(1, 0, 71, 0.5)),
+    url("../assets/nature5.jpg");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    height: 20rem;
+    width: 75%;
+}
+.text-box h2 {
+    letter-spacing: 8px;
+    font-size: 5.3rem;
+    margin: 0 0 2rem;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: -2px 0px 3px rgb(0 0 0 / 35%);
+}
+.text-box p {
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.12rem;
+    display: flex;
+    flex-direction: column;
+}
+.text-box i{
+    color: #ff5fd7;
+    text-shadow: -2px 0px 3px rgb(0 0 0 / 35%);
+    font-weight: 600;
+
+}

@@ -66,13 +66,13 @@ text-align: initial;
 width: fit-content;
 margin: 0 auto;
 }
-a {
-    color: #eaeaea ;
+.welcome-box a {
+    color: #eaeaea;
     text-decoration: none;
     background-color: transparent;
     font-size: 1.75rem;
 }
-.success {
+.welcome-box .success {
     color: green;
 }
 .success::before {
